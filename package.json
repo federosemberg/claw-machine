@@ -1,0 +1,18 @@
+{
+  "name": "grab-lab",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "node --test",
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "build:netlify": "node scripts/build-netlify.js"
+  },
+  "dependencies": {
+    "cannon-es": "^0.20.0",
+    "qrcode": "^1.5.4",
+    "three": "^0.183.2",
+    "ws": "^8.23.0"
+  },
+  "private": true,
+  "type": "module"
+}

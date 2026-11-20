@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="es-AR" class="remote-page">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#e4e7ea">
+  <title>Joystick — Grab Lab</title>
+  <link rel="stylesheet" href="/style.css">
+  <script type="module" src="/control.js"></script>
+</head>
+<body class="remote">
+  <main class="remote-panel" aria-label="Control de la garra">
+    <p id="remote-status" class="visually-hidden" role="status">Vinculando con la máquina…</p>
+    <div id="joystick" class="joystick" role="group" aria-label="Joystick de cuatro direcciones" tabindex="0" aria-disabled="true">
+      <span class="stick-arrow stick-back" aria-hidden="true"></span>
+      <span class="stick-arrow stick-left" aria-hidden="true"></span>
+      <span class="stick-bezel" aria-hidden="true"></span>
+      <span id="stick" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+      <span class="stick-arrow stick-right" aria-hidden="true"></span>
+      <span class="stick-arrow stick-front" aria-hidden="true"></span>
+    </div>
+    <div class="remote-action">
+      <button id="drop" class="drop-button" aria-label="Soltar garra" disabled>
+        <span class="drop-dial" aria-hidden="true"><span>↓</span></span>
+      </button>
+      <button id="remote-replay" class="drop-button" aria-label="Volver a jugar" hidden>
+        <span class="drop-dial" aria-hidden="true"><span>↻</span></span>
+      </button>
+    </div>
+  </main>
+</body>
+</html>
