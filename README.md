@@ -52,3 +52,4 @@ Netlify publica la pantalla y el joystick. El servidor Node.js de partidas corre
 
 Para una carga manual, ejecutá `npm ci` y `GAME_SERVER_URL=https://grab-lab.onrender.com npm run build:netlify` en tu máquina. Arrastrá la carpeta generada `dist/` a Netlify Drop y configurá `PUBLIC_ORIGIN` en Render con la URL que Netlify te asigne.
 # claw-machine
+# claw-machine
